@@ -6,6 +6,9 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
+builder.Services.AddScoped<ProductContext>();
+
+
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -14,7 +17,7 @@ builder.Services.AddSwaggerGen();
 var app = builder.Build();
 
 //generating, creating objects from asp.net core-- registering productscontetext class in dependancy framework injection
-builder.Services.AddScoped<ProductContext>();
+//builder.Services.AddScoped<ProductContext>();
 
 
 // Configure the HTTP request pipeline.

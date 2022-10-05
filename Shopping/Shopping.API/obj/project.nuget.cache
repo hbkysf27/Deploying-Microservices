@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "yWn39Gs3COmXkFNfb6P9wvVSzJCKKMu7a1eTkm57Y0MVRX0ySv3DMCf911MahPpaO5PDBL7jsMLtUR7EPzXoVA==",
+  "dgSpecHash": "rpz5IGPGELwY25yIqPaabZWZE4QB42lfxiZGEuklLieipc4d8YHzNmqtx9LAWxFyh+p0k+Jpdxrc3aFisNCuog==",
   "success": true,
   "projectFilePath": "C:\\Users\\yusuf\\source\\repos\\ShopApp\\Shopping\\Shopping.API\\Shopping.API.csproj",
   "expectedPackageFiles": [
@@ -13,6 +13,7 @@
     "C:\\Users\\yusuf\\.nuget\\packages\\mongodb.bson\\2.17.1\\mongodb.bson.2.17.1.nupkg.sha512",
     "C:\\Users\\yusuf\\.nuget\\packages\\mongodb.driver\\2.17.1\\mongodb.driver.2.17.1.nupkg.sha512",
     "C:\\Users\\yusuf\\.nuget\\packages\\mongodb.driver.core\\2.17.1\\mongodb.driver.core.2.17.1.nupkg.sha512",
+    "C:\\Users\\yusuf\\.nuget\\packages\\mongodb.driver.gridfs\\2.17.1\\mongodb.driver.gridfs.2.17.1.nupkg.sha512",
     "C:\\Users\\yusuf\\.nuget\\packages\\mongodb.libmongocrypt\\1.5.5\\mongodb.libmongocrypt.1.5.5.nupkg.sha512",
     "C:\\Users\\yusuf\\.nuget\\packages\\sharpcompress\\0.30.1\\sharpcompress.0.30.1.nupkg.sha512",
     "C:\\Users\\yusuf\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",

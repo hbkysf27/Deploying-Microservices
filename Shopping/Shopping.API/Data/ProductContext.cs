@@ -18,8 +18,12 @@ namespace Shopping.API.Data
             //this will create mongo connection
             var client = new MongoClient(configuration["DatabaseSettings:ConnectionString"]);
 
+
+
             //create the database (get database will look for databases, if exist it will create a database or else it will do nothing)
             var database = client.GetDatabase(configuration["DatabaseSettings:DatabaseName"]);
+
+
 
             //create collection , using database object and collection method, pasting the <product> model classs
             Products = database.GetCollection<Product>(configuration["DatabaseSettings:CollectionName"]);
@@ -32,12 +36,12 @@ namespace Shopping.API.Data
         public IMongoCollection<Product> Products { get; } 
         
         //in this method we are looking if there is any item in the product collection, if not we are going to insert manycommand <mongo part>
-        public static void SeeData(IMongoCollection<Product>ProductCollection)
+        public static void SeeData(IMongoCollection<Product>productCollection)
         {
-            bool existProdcut = ProductCollection.Find(p=>true).Any();
+            bool existProdcut = productCollection.Find(p=>true).Any();
             if(!existProdcut)
             {
-                ProductCollection.InsertManyAsync(GetPreconfiguredProducts());
+                productCollection.InsertManyAsync(GetPreconfiguredProducts());
             }
         }
 

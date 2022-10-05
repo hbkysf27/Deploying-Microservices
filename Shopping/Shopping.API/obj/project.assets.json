@@ -214,6 +214,24 @@
           }
         }
       },
+      "MongoDB.Driver.GridFS/2.17.1": {
+        "type": "package",
+        "dependencies": {
+          "MongoDB.Bson": "2.17.1",
+          "MongoDB.Driver": "2.17.1",
+          "MongoDB.Driver.Core": "2.17.1"
+        },
+        "compile": {
+          "lib/netstandard2.1/MongoDB.Driver.GridFS.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/MongoDB.Driver.GridFS.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "MongoDB.Libmongocrypt/1.5.5": {
         "type": "package",
         "compile": {
@@ -675,6 +693,25 @@
         "runtimes/win/native/snappy64.dll"
       ]
     },
+    "MongoDB.Driver.GridFS/2.17.1": {
+      "sha512": "lNVXnifvrjF8uAYlP3Fo1EBi6nIydVXo5UOIL0G6JHt3kly7Tvu7+t+hSVO1l8Y0EovaBfsC4PYXgrzYiCMhFA==",
+      "type": "package",
+      "path": "mongodb.driver.gridfs/2.17.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.txt",
+        "lib/net472/MongoDB.Driver.GridFS.dll",
+        "lib/net472/MongoDB.Driver.GridFS.xml",
+        "lib/netstandard2.0/MongoDB.Driver.GridFS.dll",
+        "lib/netstandard2.0/MongoDB.Driver.GridFS.xml",
+        "lib/netstandard2.1/MongoDB.Driver.GridFS.dll",
+        "lib/netstandard2.1/MongoDB.Driver.GridFS.xml",
+        "mongodb.driver.gridfs.2.17.1.nupkg.sha512",
+        "mongodb.driver.gridfs.nuspec",
+        "packageIcon.png"
+      ]
+    },
     "MongoDB.Libmongocrypt/1.5.5": {
       "sha512": "0DV4l2PjXirSJHD/b+LpOK3IfUDvkbpvvZBM2w1aYL6E/4vbhfyr/FP5laDNx2zRylqN1hIZO+EL7NgO/5GpVg==",
       "type": "package",
@@ -1034,8 +1071,10 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "FluentAssertions >= 6.7.0",
+      "MongoDB.Bson >= 2.17.1",
       "MongoDB.Driver >= 2.17.1",
       "MongoDB.Driver.Core >= 2.17.1",
+      "MongoDB.Driver.GridFS >= 2.17.1",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -1082,11 +1121,19 @@
             "target": "Package",
             "version": "[6.7.0, )"
           },
+          "MongoDB.Bson": {
+            "target": "Package",
+            "version": "[2.17.1, )"
+          },
           "MongoDB.Driver": {
             "target": "Package",
             "version": "[2.17.1, )"
           },
           "MongoDB.Driver.Core": {
+            "target": "Package",
+            "version": "[2.17.1, )"
+          },
+          "MongoDB.Driver.GridFS": {
             "target": "Package",
             "version": "[2.17.1, )"
           },
