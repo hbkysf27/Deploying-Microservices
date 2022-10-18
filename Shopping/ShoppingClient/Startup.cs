@@ -22,13 +22,15 @@ namespace ShoppingClient
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddControllers();
             services.AddHttpClient("ShoppingAPIClient", client =>
             {
-                //shopping.API url
+                //shopping.API url looking for shopping api for consuming products
                 client.BaseAddress = new Uri("http://localhost:5000/");
             });
 
             services.AddControllersWithViews();
+           // services.AddScoped<ProductContext>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

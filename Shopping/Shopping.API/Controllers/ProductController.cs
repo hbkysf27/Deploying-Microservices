@@ -39,7 +39,7 @@ namespace Shopping.API.Controllers
         {
             return await _context
                          .Products
-                         .Find(p=>true)
+                         .Find(p=>true) //find method comes from mongodb nuget package, says to get all of product collection
                          .ToListAsync();
         }
     }

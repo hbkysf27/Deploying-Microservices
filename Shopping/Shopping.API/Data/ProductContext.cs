@@ -15,12 +15,12 @@ namespace Shopping.API.Data
         {
             //open connection and open client for mongodb database, we are providing the connection setting into the mongo client class... 
 
-            //this will create mongo connection
+            //this will create mongo connection into mongo client
             var client = new MongoClient(configuration["DatabaseSettings:ConnectionString"]);
 
 
 
-            //create the database (get database will look for databases, if exist it will create a database or else it will do nothing)
+            //create the database (get database will look for databases, if exist it will create a database or else it will do nothing) thats why e use getdatbase
             var database = client.GetDatabase(configuration["DatabaseSettings:DatabaseName"]);
 
 

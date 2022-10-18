@@ -33,7 +33,7 @@ namespace ShoppingClient.Controllers
             var productList = JsonConvert.DeserializeObject<IEnumerable<Product>>(content);
 
 
-            return View(productList);
+            return View(productList); 
         }
 
         public IActionResult Privacy()
