@@ -4880,19 +4880,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\yusuf\\.nuget\\packages\\": {}
+    "C:\\Users\\USI\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yusuf\\source\\repos\\ShopApp\\Shopping\\ShoppingClient\\ShoppingClient.csproj",
+      "projectUniqueName": "C:\\Users\\USI\\Source\\Repos\\ShopApp\\Shopping\\ShoppingClient\\ShoppingClient.csproj",
       "projectName": "ShoppingClient",
-      "projectPath": "C:\\Users\\yusuf\\source\\repos\\ShopApp\\Shopping\\ShoppingClient\\ShoppingClient.csproj",
-      "packagesPath": "C:\\Users\\yusuf\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yusuf\\source\\repos\\ShopApp\\Shopping\\ShoppingClient\\obj\\",
+      "projectPath": "C:\\Users\\USI\\Source\\Repos\\ShopApp\\Shopping\\ShoppingClient\\ShoppingClient.csproj",
+      "packagesPath": "C:\\Users\\USI\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\USI\\Source\\Repos\\ShopApp\\Shopping\\ShoppingClient\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\yusuf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\USI\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4954,7 +4954,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   },

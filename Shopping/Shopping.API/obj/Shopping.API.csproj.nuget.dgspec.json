@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yusuf\\source\\repos\\ShopApp\\Shopping\\Shopping.API\\Shopping.API.csproj": {}
+    "C:\\Users\\USI\\Source\\Repos\\ShopApp\\Shopping\\Shopping.API\\Shopping.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yusuf\\source\\repos\\ShopApp\\Shopping\\Shopping.API\\Shopping.API.csproj": {
+    "C:\\Users\\USI\\Source\\Repos\\ShopApp\\Shopping\\Shopping.API\\Shopping.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yusuf\\source\\repos\\ShopApp\\Shopping\\Shopping.API\\Shopping.API.csproj",
+        "projectUniqueName": "C:\\Users\\USI\\Source\\Repos\\ShopApp\\Shopping\\Shopping.API\\Shopping.API.csproj",
         "projectName": "Shopping.API",
-        "projectPath": "C:\\Users\\yusuf\\source\\repos\\ShopApp\\Shopping\\Shopping.API\\Shopping.API.csproj",
-        "packagesPath": "C:\\Users\\yusuf\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yusuf\\source\\repos\\ShopApp\\Shopping\\Shopping.API\\obj\\",
+        "projectPath": "C:\\Users\\USI\\Source\\Repos\\ShopApp\\Shopping\\Shopping.API\\Shopping.API.csproj",
+        "packagesPath": "C:\\Users\\USI\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USI\\Source\\Repos\\ShopApp\\Shopping\\Shopping.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\yusuf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\USI\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,6 +43,10 @@
             "FluentAssertions": {
               "target": "Package",
               "version": "[6.7.0, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.17.0, )"
             },
             "MongoDB.Bson": {
               "target": "Package",
@@ -84,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

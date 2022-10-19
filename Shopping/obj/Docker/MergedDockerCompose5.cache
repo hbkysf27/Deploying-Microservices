@@ -1,0 +1,44 @@
+name: dockercompose15377030789309127446
+services:
+  shopping.api:
+    build:
+      context: C:\Users\USI\Source\Repos\ShopApp\Shopping
+      dockerfile: Shopping.API/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: shoppingapi
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "8000"
+      protocol: tcp
+  shopping.db:
+    container_name: shoppingdb
+    image: mongo
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 27017
+      published: "27017"
+      protocol: tcp
+    restart: always
+  shoppingclient:
+    build:
+      context: C:\Users\USI\Source\Repos\ShopApp\Shopping
+      dockerfile: ShoppingClient/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: shoppingclient
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "8001"
+      protocol: tcp
+networks:
+  default:
+    name: dockercompose15377030789309127446_default
