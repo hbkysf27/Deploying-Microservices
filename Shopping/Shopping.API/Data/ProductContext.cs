@@ -64,7 +64,7 @@ namespace Shopping.API.Data
 
                     Name = "IPhone 14",
                     Description = "iPhone 14 Pro has Dynamic Island, a magical new way to interact with iPhone. And an Always‑On display, which keeps your important info at a glance..",
-                    ImageFile = "product-2.png",
+                    ImageFile = "product-2 .png",
                     Price = 800000.00M,
                     Category = "Smart Phone"
                 },
