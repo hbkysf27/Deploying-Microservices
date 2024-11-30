@@ -80,7 +80,3 @@ This project demonstrates how to develop, containerize, and deploy microservices
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to adjust the specifics of the setup, deployment instructions, or any other details to match your project configuration!
